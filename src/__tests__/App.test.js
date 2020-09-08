@@ -38,6 +38,7 @@ describe("App component", () => {
 
     expect(getByTestId("repository-list")).toContainElement(
       getByText("Desafio ReactJS")
+  
     );
   });
 
